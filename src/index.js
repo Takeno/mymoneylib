@@ -1,13 +1,6 @@
-import React from 'react'
-import { Text } from 'react-native';
-
-// const Amount = props => (
-//     <Text
-//         style={{ color: props.amount >= 0 ? 'green' : 'red' }}>
-//         € {props.amount.toFixed(2)}
-//     </Text>
-// );
-
-// export Amount;
-
-export const Amount = () => <Text>A</Text>
+export {default as Amount} from './components/Amount';
+export {default as SharableTransactionRow} from './components/SharableTransactionRow';
+export {default as TabBarIcon} from './components/TabBarIcon';
+export {default as TransactionForm} from './components/TransactionForm';
+export {default as TransactionHeader} from './components/TransactionHeader';
+export {default as TransactionRow} from './components/TransactionRow';
