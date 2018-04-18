@@ -41,8 +41,7 @@ class TransactionForm extends Component {
             date: new Date()
         };
 
-        this.props.addTransaction(transaction);
-        this.props.navigation.goBack();
+        this.props.addTransaction && this.props.addTransaction(transaction);
     }
 
     render() {

@@ -26,7 +26,7 @@ const transactions = [];
 
 for(let i = 0; i < 100; i++) {
     const t = Object.assign({}, DATA[Math.floor(Math.random() * DATA.length)]);
-    t.date = moment(t.date).sub(Math.random() * 6, 'days').toDate();
+    t.date = moment(t.date).subtract(Math.random() * 6, 'days').toDate();
 
     transactions.push(t);
 }
